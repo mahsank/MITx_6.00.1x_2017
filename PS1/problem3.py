@@ -13,7 +13,7 @@ Longest substring in alphabetical order is: abc
 
 '''
 
-char,temp,found = '','',''
+char, temp, found = '', '', ''
 
 #s = 'azcbobobegghakl'
 

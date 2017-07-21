@@ -12,7 +12,9 @@ temp = 0 count = 0
 
 #s = 'azcbobobegghakl'
 
-string_len = len('bob') s_len = len(s)
+string_len = len('bob') 
+
+s_len = len(s)
 
 for i in range(temp,s_len):
     if temp <= s_len - string_len:
