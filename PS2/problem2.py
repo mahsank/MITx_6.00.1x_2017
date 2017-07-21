@@ -15,7 +15,9 @@ annualInterestRate - annual interest rate as a decimal
 The program should print out one line: the lowest monthly payment that will pay
 off all debt in under 1 year, for example:
 
-Lowest Payment: 180 Assume that the interest is compounded monthly according to
+Lowest Payment: 180
+
+Assume that the interest is compounded monthly according to
 the balance at the end of the month (after the payment for that month is made).
 The monthly payment must be a multiple of $10 and is the same for all months.
 Notice that it is possible for the balance to become negative using this
