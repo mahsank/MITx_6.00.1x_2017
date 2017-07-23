@@ -1,5 +1,4 @@
 '''
-
 Representing hands
 
 A hand is the set of letters held by a player during the game. The player is
