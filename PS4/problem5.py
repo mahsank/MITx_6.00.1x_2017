@@ -49,7 +49,7 @@ def playHand(hand, wordList, n):
         if not isValidWord(word, hand, wordList):
             # If the word is not valid:
             print('Invalid word, please try again.')
-            print
+            print()
             continue
             # Reject invalid word (print a message followed by a blank line)
         else:
@@ -69,7 +69,7 @@ def playHand(hand, wordList, n):
               hand = updateHand(hand, word)
               n = calculateHandlen(hand)
         if n < 1:
-            print
+            print()
             print('Run out of letters. Total score: ' + str(score) + '\
                     points.')
             break
