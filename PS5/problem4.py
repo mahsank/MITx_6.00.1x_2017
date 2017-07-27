@@ -14,6 +14,3 @@ return the appropriate shift value and unencrypted story string.
 def decrypt_story():
     cipheredstory = CiphertextMessage(get_story_string())
     return cipheredstory.decrypt_message()
-def decrypt_story():
-    cipheredstory = CiphertextMessage(get_story_string())
-    return cipheredstory.decrypt_message()
