@@ -36,7 +36,7 @@ class PlaintextMessage(Message):
         attributes:
             self.message_text (string, determined by input text)
             self.valid_words (list, determined using helper function
-            load_words) 
+            load_words)
             self.shift (integer, determined by input shift)
             self.encrypting_dict (dictionary, built using shift)
             self.message_text_encrypted (string, created using shift)
