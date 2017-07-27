@@ -38,11 +38,13 @@ def playGame(wordList):
     hand = {}
     while True:
         outterChar = input('Enter n to deal a new hand, r to replay the last \
-                hand, or e to end game: ') if outterChar == 'e':
+                hand, or e to end game: ') 
+        if outterChar == 'e':
             break
         if len(hand) < 1 and outterChar == 'r':
             print('You have not played a hand yet. Please play a new hand \
-                    first!') continue
+                    first!') 
+            continue
         if outterChar == 'n':
             print()
             while True:
