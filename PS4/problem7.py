@@ -65,7 +65,7 @@ def playGame(wordList):
             # single function
             while True:
                 innerChar = input('Enter u to have yourself play, \
-                        c to have the computer play: ') 
+                        c to have the computer play: ')
                 if innerChar == 'u':
                     temp = hand
                     playHand(temp, wordList, HAND_SIZE)
