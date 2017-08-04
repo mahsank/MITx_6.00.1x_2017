@@ -24,3 +24,4 @@ def sum_digits(s):
         raise ValueError()
     else:
         return count
+
