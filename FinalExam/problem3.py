@@ -16,11 +16,13 @@ def sum_digits(s):
           If there are no digits in s it raises a ValueError exception. """
 
     str_list = list(s)
+    digits = 0
     count = 0
     for i in str_list:
         if i.isdigit():
+            digits += 1
             count += int(i)
-    if s != '0' and count == 0:
+    if digits == 0:
         raise ValueError()
     else:
         return count
